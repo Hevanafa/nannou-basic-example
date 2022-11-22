@@ -16,7 +16,8 @@ This project requires Rust installed on your Linux system.
 Before starting, make sure to run `cargo install`.
 
 ## Building
-Simply execute `build.sh`.
+See `Cargo.toml`.  Make sure the project name is the same as the folder name.
+Then execute `build.sh` for debug version (huge file), `build_release.sh` for release version.
 
 ## Running
 This project was made specifically to run on Windows 10 by executing `run_release.bat`.
