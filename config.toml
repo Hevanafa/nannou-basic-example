@@ -1,0 +1,3 @@
+// enable incremental build
+[build]
+rustflags = ["-C", "link-arg=-fuse-ld=lld"]
